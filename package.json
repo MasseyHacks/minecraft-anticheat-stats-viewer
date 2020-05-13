@@ -1,0 +1,20 @@
+{
+  "name": "minecraft-anticheat-stats-viewer",
+  "version": "1.0.0",
+  "description": "Viewer for anticheat stats from the MasseyHacks anticheat stats engine.",
+  "author": "David Hui",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/moment": "^1.6.1",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
