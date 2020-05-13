@@ -67,6 +67,11 @@
     },
     mounted() {
       window.setTimeout(this.fetchStats, process.env.STATS_UPDATE_FREQ);
+    },
+    head() {
+      return {
+        title: "MasseyHacks Anticheat Stats - " + this.stats['players'][this.focusPlayer].name
+      }
     }
   }
 </script>

@@ -74,6 +74,11 @@ export default {
   },
   mounted() {
     window.setTimeout(this.fetchStats, process.env.STATS_UPDATE_FREQ);
+  },
+  head() {
+    return {
+      title: "MasseyHacks Anticheat Stats - Global"
+    }
   }
 }
 </script>
